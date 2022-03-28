@@ -1,0 +1,28 @@
+{
+  "name": "xblog",
+  "version": "1.0.0",
+  "description": "鑫博客",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuanxinLiu/xBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuanxinLiu/xBlog/issues"
+  },
+  "homepage": "https://github.com/chuanxinLiu/xBlog#readme",
+  "devDependencies": {
+    "@vuepress/plugin-last-updated": "^1.9.7"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
