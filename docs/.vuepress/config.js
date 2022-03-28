@@ -81,6 +81,19 @@ module.exports = {
           buttonText: "刷新"
         }
       }
+    ],
+    ['@vuepress/back-to-top'],
+    [
+      '@vssue/vuepress-plugin-vssue', {
+        // 设置 `platform` 而不是 `api`
+        platform: 'github-v4',
+        // 其他的 Vssue 配置
+        owner: 'chuanxinLiu',
+        repo: 'xBlog',
+        clientId: '4bdd91205daa2e403359',
+        clientSecret: 'dbf42e1af4c0f4124d475a0f836109fb0b875356',
+        autoCreateIssue:true
+      }
     ]
   ]
 }

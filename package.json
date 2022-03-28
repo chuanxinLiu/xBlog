@@ -20,11 +20,14 @@
   },
   "homepage": "https://github.com/chuanxinLiu/xBlog#readme",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-last-updated": "^1.9.7",
     "@vuepress/plugin-pwa": "^1.9.7",
     "vuepress": "^1.9.7"
   },
   "dependencies": {
+    "@vssue/api-github-v4": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "moment": "^2.29.1"
   }
 }
