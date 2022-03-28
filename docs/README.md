@@ -2,7 +2,7 @@
 home: true
 heroImage: /assets/img/logo.png
 heroText: 鑫Blog
-tagline: 博客、文档、笔记
+tagline: 文档、笔记、博客
 actionText: 瞅一瞅 →
 actionLink: /zh/guide/
 features:
