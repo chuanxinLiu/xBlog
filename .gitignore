@@ -104,4 +104,4 @@ dist
 .tern-port
 
 #隐藏的文件
-.vuepress/config/secret
+secret.js
