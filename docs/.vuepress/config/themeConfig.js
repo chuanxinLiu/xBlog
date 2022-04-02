@@ -1,23 +1,20 @@
 module.exports = {
   logo: '/favicon.ico',
   nav: [{
-      text: 'Home',
+      text: '首页',
       link: '/'
     },
     {
-      text: 'Home',
-      items: [{
-          text: 'Chinese',
-          link: '/language/chinese'
-        },
-        {
-          text: 'Japanese',
-          link: '/language/japanese'
-        }
+      text: '面试题',
+      items: [
+        { text: 'Java基础', items: [
+          { text: '语法基础', link: '/interview/语法基础' },
+          { text: 'Japanese', link: '/language/japanese/' }
+        ] }
       ]
     },
     {
-      text: 'About',
+      text: '关于我',
       link: '/about/about'
     },
     {

@@ -9,5 +9,8 @@ module.exports = {
   description: '鑫博客，记录个人工作学习整理的知识库网站',
   head: headconfig,
   themeConfig: themeconfig,
-  plugins: pluginsconfig
+  plugins: pluginsconfig,
+  markdown: {
+    lineNumbers: true
+  }
 }

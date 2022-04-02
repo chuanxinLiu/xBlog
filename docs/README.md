@@ -4,7 +4,7 @@ heroImage: /assets/img/logo.png
 heroText: 鑫Blog
 tagline: 文档、笔记、博客
 actionText: 瞅一瞅 →
-actionLink: /zh/guide/
+actionLink: /interview/语法基础
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
