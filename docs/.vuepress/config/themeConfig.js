@@ -7,9 +7,10 @@ module.exports = {
     {
       text: '面试题',
       items: [
-        { text: 'Java基础', items: [
-          { text: '语法基础', link: '/interview/语法基础' },
-          { text: 'Japanese', link: '/language/japanese/' }
+        { text: 'Java', items: [
+          { text: '基础', link: '/interview/基础' },
+          { text: '类加载', link: '/interview/类加载' },
+          { text: 'JVM', link: '/interview/JVM' }
         ] }
       ]
     },
@@ -29,4 +30,8 @@ module.exports = {
   ],
   sidebar: 'auto',
   lastUpdated: '最后更新',
+  // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
+  nextLinks: true,
+  // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
+  prevLinks: true
 }
